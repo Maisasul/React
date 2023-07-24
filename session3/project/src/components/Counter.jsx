@@ -6,12 +6,12 @@ export default function Counter() {
     <>
         <div className='jj'>
             <div className='cccc'>
-                <h1>count is: {x}</h1>
+                <h1>{x} :التسبيح</h1>
                 </div>
             <div className='nnnn'>
-                <button onClick={increment} className='btn btn-success'>Increment</button>
-                <button onClick={set} className='btn btn-secondary'>set</button>
-                <button onClick={decrement} className='btn btn-danger'>Decrement</button>
+                <button onClick={increment} className='btn btn-success'>أستغفر الله</button>
+                <button onClick={set} className='btn btn-secondary'>أعد التسبيح</button>
+                <button onClick={increment} className='btn btn-danger'>سبحان الله</button>
             </div>
         </div>
     </>
